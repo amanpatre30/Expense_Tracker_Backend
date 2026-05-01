@@ -1,11 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
+   "build": "echo \"No build step required for node app\"",
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
